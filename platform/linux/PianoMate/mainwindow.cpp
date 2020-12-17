@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->musicSheetWidget->setSource(QUrl::fromLocalFile(":/MusicSheet.qml"));
 }
 
 MainWindow::~MainWindow()
