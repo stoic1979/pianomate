@@ -1,5 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>MusicSheet.qml</file>
+        <file>img/blanche.png</file>
+        <file>img/double_croche.png</file>
+        <file>img/noire.png</file>
+        <file>img/quadruple_croche.png</file>
+        <file>img/quintuple_croche.png</file>
+        <file>img/ronde.png</file>
+        <file>img/triple_croche.png</file>
     </qresource>
 </RCC>
