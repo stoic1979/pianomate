@@ -1,0 +1,13 @@
+body {
+  background-color: hsl(24, 10%, 90%);
+  margin: 4rem;
+  font-color: rgba(0,0,0,0.9);
+  font-size: 0;
+  line-height: .5;
+  text-align: center;
+}
+
+canvas {
+  border:1px solid #D2D2D2;
+  border-radius:5px;
+}
