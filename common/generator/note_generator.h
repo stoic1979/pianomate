@@ -7,6 +7,11 @@ struct Note {
   int value;
 };
 
+enum MusicNotation {
+  IndianNotation = 1,
+  WesterNotation
+};
+
 class NoteGenerator {
 
   virtual void GenerateRandomNotes(int count, bool repeat=true) = 0;
