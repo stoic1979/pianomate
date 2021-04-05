@@ -6,8 +6,10 @@
 using namespace std;
 
 TEST_F(DispatcherTest, AddCommandToDispatchQueue){
-  _commandQueue->AddCommand("SOME-COMMAND");
-  EXPECT_EQ(1, _commandQueue->Count());
+  _commandQueue->AddCommand("SOME-COMMAND-1");
+  _commandQueue->AddCommand("SOME-COMMAND-2");
+  _commandQueue->AddCommand("SOME-COMMAND-3");
+  EXPECT_EQ(3, _commandQueue->Count());
 };
 
 int main(int argc, char**argv)
