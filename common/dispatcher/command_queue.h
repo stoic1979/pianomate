@@ -3,6 +3,7 @@
 
 #include <string>
 #include <queue>
+#include <mutex>
 
 class CommandQueue {
 
@@ -14,6 +15,7 @@ class CommandQueue {
 
   private:
     std::queue<std::string> _queue;
+    std::mutex _lock;
 };
 
 #endif
